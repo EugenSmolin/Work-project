@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -508,14 +509,15 @@
         border: 2px solid #00BD5B;
         color: #00BD5B; }
 
-#navigation .navigation_block {
+#admin_navigation .admin_navigation_block {
   margin: 20px 0; }
-  #navigation .navigation_block ol {
+  #admin_navigation .admin_navigation_block ol {
     padding: 10px 0;
     margin-bottom: 0; }
-    #navigation .navigation_block ol li a {
-      color: #00BD5B;
-      font-weight: bold; }
+    #admin_navigation .admin_navigation_block ol li:before {
+      color: #00BD5B; }
+    #admin_navigation .admin_navigation_block ol li a {
+      color: #00BD5B; }
 
 #admin_panel h2 {
   font-size: 36px;
@@ -646,5 +648,363 @@
           border-bottom: none; }
     #admin_header .header_top .container ul li.active:after {
       display: none; } }
+#zap_header .header_top {
+  background-color: #fff;
+  padding: 20px 0; }
+  #zap_header .header_top .logo_block {
+    display: inline-block; }
+    #zap_header .header_top .logo_block .logo {
+      float: left;
+      height: 60px; }
+    #zap_header .header_top .logo_block .logo_text {
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 20px;
+      color: #000; }
+  #zap_header .header_top ul {
+    margin-left: 40px;
+    margin-top: 20px; }
+    #zap_header .header_top ul li {
+      margin: 0 20px;
+      padding: 0; }
+      #zap_header .header_top ul li a {
+        padding: 0 0 10px;
+        margin: 0;
+        color: #000; }
+        #zap_header .header_top ul li a:hover {
+          background-color: transparent;
+          border-bottom: 2px solid #00BD5B; }
+  #zap_header .header_top form {
+    position: relative;
+    margin: 0;
+    padding: 0; }
+    #zap_header .header_top form input {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 5px 45px 5px 20px;
+      width: 340px;
+      height: 50px;
+      border: none;
+      border-radius: 30px;
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #fff; }
+    #zap_header .header_top form ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff; }
+    #zap_header .header_top form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff; }
+    #zap_header .header_top form .search_icon {
+      position: absolute;
+      top: 13px;
+      left: 297px;
+      color: #fff;
+      cursor: pointer; }
+    #zap_header .header_top form .button {
+      width: 180px;
+      height: 50px;
+      background-color: #00BD5B;
+      color: #fff;
+      font-weight: bold;
+      border: 2px solid #00BD5B;
+      border-radius: 30px;
+      margin-left: 10px;
+      transition: all 0.3s ease-in-out; }
+      #zap_header .header_top form .button:hover {
+        background-color: transparent;
+        border: 2px solid #00BD5B;
+        color: #00BD5B; }
+#zap_header .header_content {
+  background: url(../images/bg_header.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 100px; }
+  #zap_header .header_content h1 {
+    font-size: 36px;
+    color: #00BD5B;
+    margin-top: 270px;
+    margin-bottom: 30px; }
+  #zap_header .header_content p {
+    font-size: 24px;
+    color: #fff; }
+  #zap_header .header_content .header_button_block {
+    text-align: center;
+    margin-top: 30px; }
+    #zap_header .header_content .header_button_block .button_left, #zap_header .header_content .header_button_block .button_right {
+      background-color: #00BD5B;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      width: 260px;
+      height: 50px;
+      margin-right: 80px;
+      transition: all 0.3s ease-in-out; }
+      #zap_header .header_content .header_button_block .button_left:hover, #zap_header .header_content .header_button_block .button_right:hover {
+        background-color: transparent;
+        border: 2px solid #00BD5B; }
+  #zap_header .header_content .form {
+    max-width: 380px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 35px 20px;
+    margin-top: 120px;
+    text-align: center;
+    border-radius: 20px; }
+    #zap_header .header_content .form h3 {
+      color: #00BD5B;
+      font-size: 24px;
+      border-bottom: 1px solid #000;
+      padding-bottom: 10px;
+      margin-top: 0;
+      margin-bottom: 25px; }
+    #zap_header .header_content .form input {
+      padding: 5px 20px;
+      margin-bottom: 25px;
+      width: 100%;
+      height: 50px;
+      border: none;
+      border-radius: 30px;
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #fff; }
+    #zap_header .header_content .form ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff; }
+    #zap_header .header_content .form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff; }
+    #zap_header .header_content .form .button_form {
+      width: 180px;
+      height: 50px;
+      color: #fff;
+      background-color: #00BD5B;
+      border-radius: 30px;
+      border: none;
+      transition: all 0.3s ease-in-out; }
+      #zap_header .header_content .form .button_form:hover {
+        background-color: transparent;
+        border: 2px solid #00BD5B;
+        color: #00BD5B; }
+
+#zap_navigation .zap_navigation_block {
+  margin: 20px 0; }
+  #zap_navigation .zap_navigation_block ol {
+    padding: 10px 0;
+    margin-bottom: 0; }
+    #zap_navigation .zap_navigation_block ol li:before {
+      color: #00BD5B; }
+    #zap_navigation .zap_navigation_block ol li a {
+      color: #00BD5B; }
+
+#zap_description .zap_description_block {
+  background: url("../images/Панорама_Січі.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 20px 0;
+  min-height: 528px;
+  position: relative; }
+  #zap_description .zap_description_block .arms {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%; }
+    #zap_description .zap_description_block .arms .arms_border {
+      width: 130px;
+      height: 130px;
+      border: 2px solid #fff;
+      border-radius: 50%; }
+      #zap_description .zap_description_block .arms .arms_border img {
+        display: block;
+        margin: 25px auto; }
+  #zap_description .zap_description_block .zap_aside_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 25px;
+    font-size: 16px;
+    color: #fff;
+    width: 23%;
+    min-height: 432px; }
+    #zap_description .zap_description_block .zap_aside_right h3 {
+      text-align: center;
+      margin: 0; }
+    #zap_description .zap_description_block .zap_aside_right .aside_text {
+      font-size: 16px; }
+      #zap_description .zap_description_block .zap_aside_right .aside_text h5 {
+        margin-top: 15px;
+        margin-bottom: 5px; }
+  #zap_description .zap_description_block .zap_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff; }
+    #zap_description .zap_description_block .zap_footer .zap_footer_block {
+      display: inline-block;
+      margin: 15px 20px;
+      padding: 0 20px;
+      border-left: 4px solid #00BD5B;
+      height: 72px; }
+      #zap_description .zap_description_block .zap_footer .zap_footer_block:first-child {
+        border-left: none; }
+      #zap_description .zap_description_block .zap_footer .zap_footer_block .zap_footer_city {
+        margin-bottom: 10px; }
+      #zap_description .zap_description_block .zap_footer .zap_footer_block h3 {
+        text-align: center; }
+      #zap_description .zap_description_block .zap_footer .zap_footer_block h5 {
+        margin: 0; }
+      #zap_description .zap_description_block .zap_footer .zap_footer_block .zap_footer_text {
+        font-size: 36px;
+        font-weight: bold; }
+        #zap_description .zap_description_block .zap_footer .zap_footer_block .zap_footer_text em {
+          font-size: 12px; }
+
+#zap_footer {
+  background: url(../images/bg_footer.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px 0; }
+  #zap_footer .logo_block {
+    display: inline-block; }
+    #zap_footer .logo_block .logo {
+      float: left;
+      height: 60px; }
+    #zap_footer .logo_block .logo_text {
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 20px;
+      color: #fff; }
+  #zap_footer .copy {
+    color: #fff;
+    margin-top: 45px;
+    margin-bottom: 0; }
+  #zap_footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    #zap_footer ul li {
+      margin: 15px 0;
+      padding: 0; }
+      #zap_footer ul li a {
+        color: #fff;
+        font-size: 18px; }
+  #zap_footer .soc_block a {
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    transition: all 0.3s ease-in-out; }
+    #zap_footer .soc_block a i {
+      color: #00BD5B;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      height: 80px;
+      width: 80px;
+      transition: all 0.3s ease-in-out; }
+      #zap_footer .soc_block a i:hover {
+        color: #fff; }
+    #zap_footer .soc_block a:hover {
+      background-color: transparent;
+      border: 2px solid #fff;
+      text-decoration: none; }
+
+@media only screen and (max-width: 1200px) {
+  #zap_header .header_top form input {
+    width: 240px; }
+  #zap_header .header_top form .search_icon {
+    left: 200px; }
+  #zap_header .header_top form .button {
+    width: 90px; }
+  #zap_header .header_content .header_button_block .button_left, #zap_header .header_content .header_button_block .button_right {
+    margin-right: 20px; }
+
+  #zap_footer .logo_block .logo_text {
+    font-size: 30px;
+    margin-top: 15px; } }
+@media only screen and (max-width: 991px) {
+  #zap_header .header_top .container {
+    width: 100%;
+    padding: 0 10px; }
+    #zap_header .header_top .container .logo_block {
+      margin-top: 8px; }
+      #zap_header .header_top .container .logo_block .logo {
+        height: 45px; }
+      #zap_header .header_top .container .logo_block .logo_text {
+        font-size: 30px; }
+    #zap_header .header_top .container ul {
+      margin: 23px 0 0; }
+      #zap_header .header_top .container ul li {
+        margin: 0 10px; }
+    #zap_header .header_top .container form {
+      position: relative;
+      padding: 0;
+      margin-top: 5px; }
+      #zap_header .header_top .container form input {
+        width: 180px;
+        height: 40px; }
+      #zap_header .header_top .container form .search_icon {
+        top: 8px;
+        left: 140px; }
+      #zap_header .header_top .container form .button {
+        width: 80px;
+        height: 40px; }
+  #zap_header .header_content .header_button_block .button_left, #zap_header .header_content .header_button_block .button_right {
+    margin-right: 20px; }
+  #zap_header .header_content .form {
+    margin: 60px auto 0; }
+
+  #zap_footer {
+    text-align: center; }
+    #zap_footer .copy {
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      display: inline-block; }
+    #zap_footer .soc_block {
+      margin-top: 30px; } }
+@media only screen and (max-width: 767px) {
+  #zap_header .header_top .container .navbar-header {
+    margin-left: 0;
+    margin-right: 0; }
+  #zap_header .header_top .container .logo_block {
+    margin-top: 8px; }
+    #zap_header .header_top .container .logo_block .logo {
+      height: 45px; }
+    #zap_header .header_top .container .logo_block .logo_text {
+      font-size: 30px; }
+  #zap_header .header_top .container .button_desktop {
+    color: #000;
+    margin-right: 0; }
+  #zap_header .header_top .container ul {
+    margin: 10px; }
+    #zap_header .header_top .container ul li {
+      margin: 15px 0;
+      padding: 0; }
+      #zap_header .header_top .container ul li a {
+        padding: 0;
+        margin: 0;
+        color: #000; }
+        #zap_header .header_top .container ul li a:hover {
+          border-bottom: none; }
+    #zap_header .header_top .container ul li.active:after {
+      display: none; }
+  #zap_header .header_content .header_button_block .button_left, #zap_header .header_content .header_button_block .button_right {
+    margin-bottom: 20px;
+    margin-right: 0; }
+  #zap_header .header_content .form {
+    margin: 30px auto; } }
 
 /*# sourceMappingURL=style.css.map */

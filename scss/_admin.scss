@@ -104,8 +104,8 @@ $light_grey: #C4D3DB;
    }
 }
 //================ NAVIGATION ================//
-#navigation {
-   .navigation_block {
+#admin_navigation {
+   .admin_navigation_block {
       margin: 20px 0;
 
       ol {
@@ -113,9 +113,11 @@ $light_grey: #C4D3DB;
          margin-bottom: 0;
 
          li {
+            &:before {
+               color: $green;
+            }
             a {
                color: $green;
-               font-weight: bold;
             }
          }
       }
