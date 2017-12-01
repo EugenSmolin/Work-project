@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+
+   <title>ADMIN | INFOSTAT</title>
+
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/font-awesome.css" rel="stylesheet">
+
+
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+   <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
+   <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+   <!--[endif]-->
+
+</head>
+<body>
+<!-- ================= HEADER ================== -->
+<header id="admin_header">
+   <div class="header_top">
+      <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="header-nav">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle button_desktop" data-toggle="collapse" data-target="#responsive-menu">
+                  <!--<span class="sr-only"></span>-->
+                  <i class="fa fa-2x fa-align-justify" aria-hidden="true"></i>
+               </button>
+               <a href="#">
+                  <div class="logo_block">
+                     <img class="logo" src="images/logo.png" alt="Логотип">
+                     <span class="logo_text">infostat</span>
+                  </div>
+               </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse block_ul" id="responsive-menu">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Область</a></li>
+                  <li><a href="#">Город</a></li>
+                  <li><a href="#">Сравнить</a></li>
+               </ul>
+            <form class="navbar-form navbar-right">
+               <div class="form-group">
+                  <input type="search" placeholder="Поиск">
+                  <i class="fa fa-2x fa-search search_icon" aria-hidden="true"></i>
+                  <button type="submit" class="button">Войти</button>
+               </div>
+            </form>
+         </div><!-- /.navbar-collapse -->
+         </div>
+      </div>
+   </div>
+</header>
+<!-- =============== NAVIGATION ================ -->
+<section id="navigation">
+   <div class="container">
+      <div class="navigation_block">
+         <ol class="breadcrumb">
+            <li><a href="index.html">Главная</a></li>
+            <li class="active">Админ панель</li>
+            <!--<li>Данные</li>-->
+         </ol>
+      </div>
+   </div>
+</section>
+<!-- ============== ADMIN PANEL ================ -->
+<section id="admin_panel">
+   <div class="container">
+      <h2>Админ панель</h2>
+      <div class="controls">
+         <ul>
+            <li class="filter" data-filter="all">Все разделы</li>
+            <li class="filter" data-filter=".category-1">Показатели</li>
+            <li class="filter" data-filter=".category-2">Новости</li>
+            <li class="filter" data-filter=".category-3">Пользователи</li>
+            <li class="filter" data-filter=".category-4">Главная страница</li>
+            <li class="filter" data-filter=".category-5">Парсер</li>
+         </ul>
+      </div>
+      <div id="admin_panel_main_block" class="admin_panel_main_block">
+         <!-- ======== 1 ======== -->
+         <div class="mix category-1" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/показатели.png" alt="Показатели">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 2 ======== -->
+         <div class="mix category-1" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/дерево_показателей.png" alt="дерево_показателей">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 3 ======== -->
+         <div class="mix category-1" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/единица_измерения.png" alt="единица_измерения">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 4 ======== -->
+         <div class="mix category-1" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/категории_показателей.png" alt="категории_показателей">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 5 ======== -->
+         <div class="mix category-1" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/описание_показателей.png" alt="описание_показателей">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 6 ======== -->
+         <div class="mix category-3" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/пользователи.png" alt="пользователи">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 7 ======== -->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/ссылка.png" alt="ссылка">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 8 ======== -->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/добавить_ссылку.png" alt="добавить_ссылку">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 9 ======== -->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/редактировать_ссылку.png" alt="редактировать_ссылку">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 10 ======== -->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/данные.png" alt="данные">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 11 ======== -->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/добавить_ссылку.png" alt="добавить_ссылку">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 12 ======== -->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/редактировать_ссылку.png" alt="редактировать_ссылку">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 13 ======== -->
+         <div class="mix category-4" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/главная.png" alt="главная">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 14 ======== К какому пунтку относить???????-->
+         <div class="mix category-3" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/населенные_пункты.png" alt="населенные_пункты">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 15 ======== К какому пунтку относить???????-->
+         <div class="mix category-5" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/типы_населенных_пунктов.png" alt="типы_населенных_пунктов">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 16 ======== К какому пунтку относить???????-->
+         <div class="mix category-2" data-order="1">
+           <a href="#">
+               <div class="category_block">
+                  <img src="images/периоды.png" alt="периоды">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 17 ======== К какому пунтку относить???????-->
+         <div class="mix category-4" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/типы_периодов.png" alt="типы_периодов">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 18 ======== -->
+         <div class="mix category-2" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/новости.png" alt="новости">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 19 ======== -->
+         <div class="mix category-2" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/добавить_новость.png" alt="добавить_новость">
+               </div>
+            </a>
+         </div>
+         <!-- ======== 20 ======== -->
+         <div class="mix category-2" data-order="1">
+            <a href="#">
+               <div class="category_block">
+                  <img src="images/редактировать_новость.png" alt="редактировать_новость">
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- ================= FOOTER ================== -->
+<footer id="admin_footer">&copy; Infostat 2017</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/script.js"></script>
+<!--<script src="js/custom.js"></script>-->
+
+</body>
+</html>

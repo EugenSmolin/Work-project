@@ -1,0 +1,330 @@
+//=================== ADMIN ==================//
+//============================================//
+
+//================== ШРИФТ ===================//
+
+//=================== ЦВЕТ ===================//
+$green: #00BD5B;
+$light_grey: #C4D3DB;
+//============== ОБЩИЕ НАСТРОЙКИ =============//
+
+//=============== ОСНОВНОЙ КОД ===============//
+
+//================== HEADER ==================//
+#admin_header {
+   .header_top {
+      background-color: #fff;
+      padding: 20px 0;
+      border-bottom:1px solid #000;
+
+      .logo_block {
+         display: inline-block;
+
+         .logo {
+            float: left;
+            height: 60px;
+         }
+         .logo_text {
+            text-transform: uppercase;
+            font-size: 36px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 5px;
+            margin-left: 20px;
+            color: #000;
+         }
+      }
+      ul {
+         margin-left: 40px;
+         margin-top: 20px;
+
+         li {
+            margin: 0 20px;
+            padding: 0;
+
+            a {
+               padding: 0 0 10px;
+               margin: 0;
+               color: #000;
+
+               &:hover {
+                  background-color: transparent;
+                  border-bottom: 2px solid $green;
+               }
+            }
+         }
+      }
+      form {
+         position: relative;
+         margin: 0;
+         padding: 0;
+
+         input {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 5px 45px 5px 20px;
+            width: 340px;
+            height: 50px;
+            border: none;
+            border-radius: 30px;
+            background-color: rgba(0,0,0,.2);
+            color: #fff;
+         }
+         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: #fff;
+         }
+         ::-moz-placeholder { /* Firefox 19+ */
+            color: #fff;
+         }
+         .search_icon {
+            position: absolute;
+            top: 13px;
+            left: 297px;
+            color: #fff;
+            cursor: pointer;
+         }
+         .button {
+            width: 180px;
+            height: 50px;
+            background-color: $green;
+            color: #fff;
+            font-weight: bold;
+            border: 2px solid $green;
+            border-radius: 30px;
+            margin-left: 10px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+               background-color: transparent;
+               border: 2px solid $green;
+               color: $green;
+            }
+         }
+      }
+   }
+}
+//================ NAVIGATION ================//
+#navigation {
+   .navigation_block {
+      margin: 20px 0;
+
+      ol {
+         padding: 10px 0;
+         margin-bottom: 0;
+
+         li {
+            a {
+               color: $green;
+               font-weight: bold;
+            }
+         }
+      }
+   }
+}
+//=============== ADMIN PANEL ================//
+#admin_panel {
+   h2 {
+      font-size: 36px;
+      margin: 20px 0;
+   }
+   .controls {
+      ul {
+         margin-bottom: 30px;
+         text-align: center;
+         padding: 0;
+
+         li {
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 30px;
+            cursor: pointer;
+            border: 2px solid $green;
+            border-radius: 30px;
+            background-color: $green;
+            color: #fff;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+               color: $green;
+               background-color: transparent;
+               border: 2px solid $green;
+            }
+         }
+      }
+   }
+
+   .admin_panel_main_block {
+      text-align: center;
+      margin-bottom: 30px;
+
+      .category-1, .category-2,
+      .category-3, .category-4,
+      .category-5 {
+         width: 210px;
+         height: 210px;
+         display: inline-block;
+         text-align: center;
+         position: relative;
+         overflow: hidden;
+         margin: 5px;
+         border: 2px solid $green;
+         cursor: pointer;
+
+         a {
+            .category_block {
+               padding: 55px;
+
+               img {
+                  width: 100px;
+                  height: 100px;
+               }
+            }
+         }
+         &:hover {
+            background-color: $light_grey;
+         }
+      }
+      .category-2 {
+         border: 2px solid red;
+      }
+      .category-3 {
+         border: 2px solid grey;
+      }
+      .category-4 {
+         border: 2px solid blue;
+      }
+      .category-5 {
+         border: 2px solid #F28726;
+      }
+
+      .mix {
+         display: none;
+      }
+   }
+}
+//=================== FOOTER =================//
+#admin_footer {
+   padding: 30px;
+   background-color: $green;
+   color: #fff;
+   font-size: 18px;
+   text-align: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+   #admin_header {
+      .header_top {
+         form {
+            input {
+               width: 240px;
+            }
+            .search_icon {
+               left: 200px;
+            }
+            .button {
+               width: 90px;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   #admin_header {
+      .header_top {
+         .container {
+            width: 100%;
+            padding: 0 10px;
+
+            .logo_block {
+               margin-top: 8px;
+
+               .logo {
+                  height: 45px;
+               }
+               .logo_text {
+                  font-size: 30px;
+               }
+            }
+            ul {
+               margin: 23px 0 0;
+
+               li {
+                  margin: 0 10px;
+               }
+            }
+            form {
+               position: relative;
+               padding: 0;
+               margin-top: 5px;
+
+               input {
+                  width: 180px;
+                  height: 40px;
+               }
+               .search_icon {
+                  top: 8px;
+                  left: 140px;
+               }
+               .button {
+                  width: 80px;
+                  height: 40px;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   #admin_header {
+      .header_top {
+         .container {
+            .navbar-header {
+               margin-left: 0;
+               margin-right: 0;
+            }
+            .logo_block {
+               margin-top: 8px;
+
+               .logo {
+                  height: 45px;
+               }
+               .logo_text {
+                  font-size: 30px;
+               }
+            }
+            .button_desktop {
+               color: #000;
+               margin-right: 0;
+            }
+            ul {
+               margin: 10px;
+
+               li {
+                  margin: 15px 0;
+                  padding: 0;
+
+                  a {
+                     padding: 0;
+                     margin: 0;
+                     color: #000;
+
+                     &:hover {
+                        border-bottom: none;
+                     }
+                  }
+               }
+               li.active:after {
+                  display: none;
+               }
+            }
+
+         }
+      }
+   }
+}
+//@media only screen and (max-width: 470px) {}
