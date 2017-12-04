@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; }
 
 #header .header_top {
   background-color: #fff;
@@ -438,6 +439,12 @@
 @media only screen and (max-width: 470px) {
   #statistic .statistic_block .statistic_text {
     font-size: 16px; } }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; }
+
 #admin_header .header_top {
   background-color: #fff;
   padding: 20px 0;
@@ -648,6 +655,12 @@
           border-bottom: none; }
     #admin_header .header_top .container ul li.active:after {
       display: none; } }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; }
+
 #zap_header .header_top {
   background-color: #fff;
   padding: 20px 0; }
@@ -848,6 +861,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: #fff; }
     #zap_description .zap_description_block .zap_footer .zap_footer_block {
+      float: left;
       display: inline-block;
       margin: 15px 20px;
       padding: 0 20px;
@@ -859,13 +873,90 @@
         margin-bottom: 10px; }
       #zap_description .zap_description_block .zap_footer .zap_footer_block h3 {
         text-align: center; }
-      #zap_description .zap_description_block .zap_footer .zap_footer_block h5 {
-        margin: 0; }
+      #zap_description .zap_description_block .zap_footer .zap_footer_block h4 {
+        margin-top: 5px;
+        margin-bottom: 0; }
       #zap_description .zap_description_block .zap_footer .zap_footer_block .zap_footer_text {
         font-size: 36px;
         font-weight: bold; }
         #zap_description .zap_description_block .zap_footer .zap_footer_block .zap_footer_text em {
           font-size: 12px; }
+#zap_description .sidebar_block {
+  width: 25%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #C4D3DB;
+  float: left; }
+  #zap_description .sidebar_block .jq_dropdown_menu {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 60px;
+    color: #00BD5B;
+    border-bottom: 3px solid #00BD5B;
+    cursor: pointer; }
+    #zap_description .sidebar_block .jq_dropdown_menu:before {
+      content: '\f078';
+      font-family: 'FontAwesome';
+      display: inline-block;
+      margin-right: 5px; }
+  #zap_description .sidebar_block .tabs__caption {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    margin: -1px 0 0 -1px;
+    padding-left: 0; }
+  #zap_description .sidebar_block .tabs__caption {
+    width: 100%;
+    padding: 0 25px;
+    list-style: none; }
+    #zap_description .sidebar_block .tabs__caption li {
+      line-height: 48px;
+      padding: 0 0 2px;
+      width: 100%;
+      color: #000; }
+      #zap_description .sidebar_block .tabs__caption li:not(.active) {
+        cursor: pointer; }
+      #zap_description .sidebar_block .tabs__caption li:hover {
+        text-decoration: none;
+        border-bottom: 2px solid #00BD5B;
+        padding: 0; }
+    #zap_description .sidebar_block .tabs__caption .active {
+      color: #00BD5B; }
+#zap_description .main_content {
+  display: inline-block;
+  width: 73%;
+  border: 1px solid #C4D3DB;
+  margin-bottom: 20px; }
+  #zap_description .main_content .tabs__content {
+    display: none;
+    padding: 0;
+    text-align: center; }
+    #zap_description .main_content .tabs__content .header_content {
+      width: 100%;
+      text-align: center;
+      line-height: 60px;
+      color: #00BD5B;
+      border-bottom: 3px solid #00BD5B; }
+    #zap_description .main_content .tabs__content .footer_content {
+      padding: 15px; }
+      #zap_description .main_content .tabs__content .footer_content .arms_img, #zap_description .main_content .tabs__content .footer_content .flag {
+        text-align: center;
+        display: inline-block;
+        margin: 0 35px; }
+  #zap_description .main_content .tabs__content.active {
+    display: block; }
+  #zap_description .main_content .vertical .tabs__caption {
+    float: left;
+    display: block; }
+    #zap_description .main_content .vertical .tabs__caption li {
+      float: none; }
+  #zap_description .main_content .vertical .tabs__content {
+    overflow: hidden; }
 
 #zap_footer {
   background: url(../images/bg_footer.png);
