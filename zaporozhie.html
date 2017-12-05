@@ -74,7 +74,7 @@
       </div>
    </div>
 </section>
-<!-- =============== ZAP DESCRIPTION ================ -->
+<!-- ============= ZAP DESCRIPTION ============= -->
 <section id="zap_description">
    <div class="container">
       <div class="zap_description_block">
@@ -83,6 +83,7 @@
                <img src="images/Герб_Запорожья.png" alt="">
             </div>
          </div>
+
          <aside class="zap_aside_right">
             <h3>Город Запорожье</h3>
             <div class="aside_text">
@@ -133,17 +134,27 @@
       </div>
 
       <div class="tabs  vertical">
-         <div class="sidebar_block">
-            <div class="jq_dropdown_menu">
-               About city
+         <div class="panel-group sidebar_block" id="accordion"><!-- LEFT SIDEBAR-->
+            <div class="panel-heading">
+               <a id="about_city" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <div class="jq_dropdown_menu">
+                     <i id="fa_chevron_down" class="fa fa-chevron-right" aria-hidden="true"></i>
+                     About city
+                  </div>
+               </a>
             </div>
-            <ul class="tabs__caption">
-               <li class="active">Символика</li>
-               <li>Карта</li>
-            </ul>
+            <div id="collapseOne" class="panel-collapse collapse in">
+               <ul class="tabs__caption">
+                  <li class="active">Символика</li><!-- 1-й слайд -->
+                  <li>Карта</li><!-- 2-й слайд -->
+                  <!--<li></li>--><!-- 3-й слайд -->
+                  <!--<li></li>--><!-- 4-й слайд -->
+                  <!--<li></li>--><!-- 5-й слайд -->
+               </ul>
+            </div>
          </div>
          <div class="main_content">
-            <div class="tabs__content  active">
+            <div class="tabs__content  active"><!-- 1-й слайд -->
                <div class="header_content">
                   Символика
                </div>
@@ -158,7 +169,7 @@
                   </div>
                </div>
             </div>
-            <div class="tabs__content">
+            <div class="tabs__content"><!-- 2-й слайд -->
                <div class="header_content">
                   Карта
                </div>
@@ -166,17 +177,278 @@
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171384.3037969097!2d35.23097021460905!3d47.84192296203671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc673dfa85bb03%3A0x7e675cd9074d3f4a!2z0JfQsNC_0L7RgNC-0LbRjNC1LCDQl9Cw0L_QvtGA0L7QttGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2OTA2MQ!5e0!3m2!1sru!2sua!4v1512398032718" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                </div>
             </div>
-            <div class="tabs__content">
-               <span class="num">3</span>
+            <!--<div class="tabs__content">
+               3
             </div>
             <div class="tabs__content">
-               <span class="num">4</span>
+               4
             </div>
             <div class="tabs__content">
-               <span class="num">5</span>
-            </div>
+               5
+            </div>-->
          </div>
       </div><!-- .tabs -->
+   </div>
+</section>
+<!-- =============== INFORMATION =============== -->
+<section id="information">
+   <div class="container">
+      <div class="main_block_information">
+         <div class="sidebar_block_info">
+            <div class="head">
+               СПИСОК
+            </div>
+            <div class="panel-group" id="accordion">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        Городская среда
+                     </a>
+                  </div>
+                  <!--<div id="collapse1" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        <ul>
+                           <li><a href="#">пункт 1</a></li>
+                           <li><a href="#">пункт 2</a></li>
+                           <li><a href="#">пункт 3</a></li>
+                        </ul>
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                        Общее о городе
+                     </a>
+                  </div>
+                  <!--<div id="collapse2" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        <ul>
+                           <li><a href="#">пункт 1</a></li>
+                           <li><a href="#">пункт 2</a></li>
+                           <li><a href="#">пункт 3</a></li>
+                           <li><a href="#">пункт 4</a></li>
+                           <li><a href="#">пункт 5</a></li>
+                        </ul>
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                        Стоимость жизни
+                     </a>
+                  </div>
+                  <!--<div id="collapse3" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        <ul>
+                           <li><a href="#">пункт 1</a></li>
+                           <li><a href="#">пункт 2</a></li>
+                           <li><a href="#">пункт 3</a></li>
+                           <li><a href="#">пункт 4</a></li>
+                           <li><a href="#">пункт 5</a></li>
+                           <li><a href="#">пункт 6</a></li>
+                           <li><a href="#">пункт 7</a></li>
+                        </ul>
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                        Здоровье
+                     </a>
+                  </div>
+                  <!--<div id="collapse4" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        44444
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                        Бюджет
+                     </a>
+                  </div>
+                  <!--<div id="collapse5" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        55555
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                        Миграция
+                     </a>
+                  </div>
+                  <!--<div id="collapse6" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        66666
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                        Транспорт
+                     </a>
+                  </div>
+                  <!--<div id="collapse7" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        77777
+                     </div>
+                  </div>-->
+               </div>
+               <div class="panel">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                        Образование
+                     </a>
+                  </div>
+                  <!--<div id="collapse8" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse88">punkt 8</a>
+                     </div>
+                  </div>-->
+               </div>
+            </div>
+         </div><!-- sidebar block info -->
+
+         <div class="main_content_block_info">
+            <div class="panel-group" id="accordion">
+               <!-- panel block 1 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        <div class="panel_head">
+                           <img src="images/icon_city.png" alt="Городская среда">
+                           Городская среда
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in"><!--class = in -->
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 2 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                        <div class="panel_head">
+                           <img src="images/icon_info_city.png" alt="Общее о городе">
+                           Общее о городе
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 3 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                        <div class="panel_head">
+                           <img src="images/icon_coast_life.png" alt="Стоимость жизни">
+                           Стоимость жизни
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 4 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                        <div class="panel_head">
+                           <img src="images/icon_health.png" alt="Здоровье">
+                           Здоровье
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse4" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 5 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                        <div class="panel_head">
+                           <img src="images/icon_budget.png" alt="Бюджет">
+                           Бюджет
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse5" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 6 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                        <div class="panel_head">
+                           <img src="images/icon_visa.png" alt="Миграция">
+                           Миграция
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 7 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                        <div class="panel_head">
+                           <img src="images/icon_transport.png" alt="Транспорт">
+                           Транспорт
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse7" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+               <!-- panel block 8 -->
+               <div class="panel panel-success">
+                  <div class="panel-heading">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                        <div class="panel_head">
+                           <img src="images/icon_school.png" alt="Образование">
+                           Образование
+                        </div>
+                     </a>
+                  </div>
+                  <div id="collapse8" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div><!-- main content block info -->
+      </div>
    </div>
 </section>
 <!-- ================= FOOTER ================== -->
@@ -208,6 +480,8 @@
 </footer>
 
 
+
+   <!-- ================================= SCRIPTS ============================== -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="js/bootstrap.js"></script>
    <script src="js/script.js"></script>

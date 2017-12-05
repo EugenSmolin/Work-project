@@ -880,13 +880,20 @@
         font-size: 36px;
         font-weight: bold; }
         #zap_description .zap_description_block .zap_footer .zap_footer_block .zap_footer_text em {
-          font-size: 12px; }
+          font-size: 12px;
+          font-weight: 100; }
 #zap_description .sidebar_block {
   width: 25%;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #C4D3DB;
   float: left; }
+  #zap_description .sidebar_block .panel-heading {
+    padding: 0; }
+  #zap_description .sidebar_block a {
+    text-decoration: none; }
+    #zap_description .sidebar_block a:hover {
+      text-decoration: none; }
   #zap_description .sidebar_block .jq_dropdown_menu {
     width: 100%;
     padding: 0 10px;
@@ -894,9 +901,7 @@
     color: #00BD5B;
     border-bottom: 3px solid #00BD5B;
     cursor: pointer; }
-    #zap_description .sidebar_block .jq_dropdown_menu:before {
-      content: '\f078';
-      font-family: 'FontAwesome';
+    #zap_description .sidebar_block .jq_dropdown_menu i {
       display: inline-block;
       margin-right: 5px; }
   #zap_description .sidebar_block .tabs__caption {
@@ -930,8 +935,7 @@
 #zap_description .main_content {
   display: inline-block;
   width: 73%;
-  border: 1px solid #C4D3DB;
-  margin-bottom: 20px; }
+  border: 1px solid #C4D3DB; }
   #zap_description .main_content .tabs__content {
     display: none;
     padding: 0;
@@ -943,7 +947,7 @@
       color: #00BD5B;
       border-bottom: 3px solid #00BD5B; }
     #zap_description .main_content .tabs__content .footer_content {
-      padding: 15px; }
+      padding: 10px; }
       #zap_description .main_content .tabs__content .footer_content .arms_img, #zap_description .main_content .tabs__content .footer_content .flag {
         text-align: center;
         display: inline-block;
@@ -957,6 +961,76 @@
       float: none; }
   #zap_description .main_content .vertical .tabs__content {
     overflow: hidden; }
+
+#information .main_block_information {
+  margin-top: 30px;
+  border-top: 1px solid #C4D3DB;
+  padding-top: 30px; }
+  #information .main_block_information .sidebar_block_info {
+    width: 25%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #C4D3DB;
+    float: left; }
+    #information .main_block_information .sidebar_block_info .head {
+      width: 100%;
+      text-align: center;
+      padding: 0 10px;
+      line-height: 60px;
+      color: #00BD5B;
+      border-bottom: 3px solid #00BD5B;
+      cursor: pointer; }
+    #information .main_block_information .sidebar_block_info .panel {
+      padding: 0 15px; }
+      #information .main_block_information .sidebar_block_info .panel .panel-heading {
+        padding: 0; }
+      #information .main_block_information .sidebar_block_info .panel .panel-body {
+        padding: 0 15px; }
+        #information .main_block_information .sidebar_block_info .panel .panel-body ul {
+          margin: 0;
+          padding: 0;
+          list-style: none; }
+      #information .main_block_information .sidebar_block_info .panel a {
+        text-decoration: none;
+        line-height: 48px;
+        padding: 0 0 2px;
+        width: 100%;
+        color: #000;
+        display: block; }
+        #information .main_block_information .sidebar_block_info .panel a:before {
+          content: '\f054';
+          font-family: 'FontAwesome';
+          opacity: .6;
+          display: inline-block;
+          margin-right: 5px; }
+        #information .main_block_information .sidebar_block_info .panel a:hover {
+          text-decoration: none;
+          border-bottom: 2px solid #00BD5B;
+          padding: 0;
+          color: #00BD5B; }
+  #information .main_block_information .main_content_block_info {
+    display: inline-block;
+    width: 73%;
+    border: 1px solid #C4D3DB;
+    padding: 10px; }
+    #information .main_block_information .main_content_block_info .panel-group {
+      margin-bottom: 0; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-heading {
+        padding: 0; }
+        #information .main_block_information .main_content_block_info .panel-group .panel-heading a {
+          color: #000;
+          text-decoration: none; }
+          #information .main_block_information .main_content_block_info .panel-group .panel-heading a:hover {
+            text-decoration: none;
+            color: #00BD5B; }
+          #information .main_block_information .main_content_block_info .panel-group .panel-heading a .panel_head {
+            padding: 10px 15px;
+            text-transform: uppercase; }
+            #information .main_block_information .main_content_block_info .panel-group .panel-heading a .panel_head img {
+              width: 40px;
+              height: 40px;
+              display: inline-block;
+              margin-right: 10px; }
 
 #zap_footer {
   background: url(../images/bg_footer.png);

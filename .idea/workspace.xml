@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="746306d0-4712-4f39-89a8-667fe8363f9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Герб_Запорожья_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Прапор_міста.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.html" afterPath="$PROJECT_DIR$/admin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_admin.scss" afterPath="$PROJECT_DIR$/scss/_admin.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_zaporozhie.scss" afterPath="$PROJECT_DIR$/scss/_zaporozhie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zaporozhie.html" afterPath="$PROJECT_DIR$/zaporozhie.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59289414">
+    <splitter split-orientation="horizontal" split-proportion="0.5705087">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -81,18 +75,22 @@
           <file leaf-file-name="zaporozhie.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/zaporozhie.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-                  <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-                  <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+                <state relative-caret-position="545">
+                  <caret line="479" column="9" lean-forward="true" selection-start-line="479" selection-start-column="9" selection-end-line="479" selection-end-column="9" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#aside#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#footer#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#7323#7329#0" expanded="true" />
+                    <element signature="e#23840#23846#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -101,8 +99,8 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -115,28 +113,31 @@
           <file leaf-file-name="_zaporozhie.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_zaporozhie.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
-                  <caret line="296" column="31" lean-forward="false" selection-start-line="296" selection-start-column="31" selection-end-line="296" selection-end-column="31" />
+                <state relative-caret-position="408">
+                  <caret line="601" column="1" lean-forward="true" selection-start-line="601" selection-start-column="1" selection-end-line="601" selection-end-column="1" />
                   <folding>
                     <element signature="e#392#4745#0" expanded="false" />
                     <element signature="e#483#856#0" expanded="false" />
                     <element signature="e#1282#2505#0" expanded="false" />
                     <element signature="e#2579#4743#0" expanded="false" />
                     <element signature="e#4811#5094#0" expanded="false" />
+                    <element signature="e#5161#9841#0" expanded="false" />
                     <element signature="e#5399#5881#0" expanded="false" />
-                    <element signature="e#5905#6396#0" expanded="false" />
-                    <element signature="e#7395#8747#0" expanded="false" />
-                    <element signature="e#8791#9737#0" expanded="false" />
-                    <element signature="e#9801#11274#0" expanded="false" />
-                    <element signature="e#11319#11902#0" expanded="false" />
-                    <element signature="e#11336#11758#0" expanded="false" />
-                    <element signature="e#11774#11900#0" expanded="false" />
-                    <element signature="e#11946#13359#0" expanded="false" />
-                    <element signature="e#11963#13115#0" expanded="false" />
-                    <element signature="e#12086#12286#0" expanded="false" />
-                    <element signature="e#13131#13357#0" expanded="false" />
-                    <element signature="e#13403#14670#0" expanded="false" />
-                    <element signature="e#13420#14668#0" expanded="false" />
+                    <element signature="e#5905#6397#0" expanded="false" />
+                    <element signature="e#6416#7374#0" expanded="false" />
+                    <element signature="e#7434#8876#0" expanded="false" />
+                    <element signature="e#8920#9839#0" expanded="false" />
+                    <element signature="e#9905#12405#0" expanded="false" />
+                    <element signature="e#12467#13940#0" expanded="false" />
+                    <element signature="e#13985#14568#0" expanded="false" />
+                    <element signature="e#14002#14424#0" expanded="false" />
+                    <element signature="e#14440#14566#0" expanded="false" />
+                    <element signature="e#14612#16025#0" expanded="false" />
+                    <element signature="e#14629#15781#0" expanded="false" />
+                    <element signature="e#14752#14952#0" expanded="false" />
+                    <element signature="e#15797#16023#0" expanded="false" />
+                    <element signature="e#16069#17336#0" expanded="false" />
+                    <element signature="e#16086#17334#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -195,16 +196,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1530">
-                  <caret line="1101" column="0" lean-forward="false" selection-start-line="1101" selection-start-column="0" selection-end-line="1101" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -224,11 +215,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/scss/zaporozhie.scss" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/scss/_admin.scss" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/admin.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/zaporozhie.html" />
         <option value="$PROJECT_DIR$/scss/_zaporozhie.scss" />
       </list>
@@ -242,9 +233,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="278" />
+    <option name="x" value="111" />
     <option name="y" value="36" />
-    <option name="width" value="1579" />
+    <option name="width" value="1746" />
     <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -317,18 +308,18 @@
       <option name="presentableId" value="Default" />
       <updated>1511958771177</updated>
       <workItem from="1511959509234" duration="52174000" />
-      <workItem from="1512385805376" duration="15359000" />
+      <workItem from="1512385805376" duration="34547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67533000" />
+    <option name="totallyTimeSpent" value="86721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="36" width="1579" height="1001" extended-state="1" />
+    <frame x="111" y="36" width="1746" height="1001" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11059908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115658365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -413,11 +404,17 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#aside#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#7323#7329#0" expanded="true" />
+            <element signature="e#23840#23846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,20 +429,23 @@
             <element signature="e#1282#2505#0" expanded="false" />
             <element signature="e#2579#4743#0" expanded="false" />
             <element signature="e#4811#5094#0" expanded="false" />
+            <element signature="e#5161#9841#0" expanded="false" />
             <element signature="e#5399#5881#0" expanded="false" />
-            <element signature="e#5905#6396#0" expanded="false" />
-            <element signature="e#7395#8747#0" expanded="false" />
-            <element signature="e#8791#9737#0" expanded="false" />
-            <element signature="e#9801#11274#0" expanded="false" />
-            <element signature="e#11319#11902#0" expanded="false" />
-            <element signature="e#11336#11758#0" expanded="false" />
-            <element signature="e#11774#11900#0" expanded="false" />
-            <element signature="e#11946#13359#0" expanded="false" />
-            <element signature="e#11963#13115#0" expanded="false" />
-            <element signature="e#12086#12286#0" expanded="false" />
-            <element signature="e#13131#13357#0" expanded="false" />
-            <element signature="e#13403#14670#0" expanded="false" />
-            <element signature="e#13420#14668#0" expanded="false" />
+            <element signature="e#5905#6397#0" expanded="false" />
+            <element signature="e#6416#7374#0" expanded="false" />
+            <element signature="e#7434#8876#0" expanded="false" />
+            <element signature="e#8920#9839#0" expanded="false" />
+            <element signature="e#9905#12405#0" expanded="false" />
+            <element signature="e#12467#13940#0" expanded="false" />
+            <element signature="e#13985#14568#0" expanded="false" />
+            <element signature="e#14002#14424#0" expanded="false" />
+            <element signature="e#14440#14566#0" expanded="false" />
+            <element signature="e#14612#16025#0" expanded="false" />
+            <element signature="e#14629#15781#0" expanded="false" />
+            <element signature="e#14752#14952#0" expanded="false" />
+            <element signature="e#15797#16023#0" expanded="false" />
+            <element signature="e#16069#17336#0" expanded="false" />
+            <element signature="e#16086#17334#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -627,56 +627,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_zaporozhie.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="296" column="31" lean-forward="false" selection-start-line="296" selection-start-column="31" selection-end-line="296" selection-end-column="31" />
-          <folding>
-            <element signature="e#392#4745#0" expanded="false" />
-            <element signature="e#483#856#0" expanded="false" />
-            <element signature="e#1282#2505#0" expanded="false" />
-            <element signature="e#2579#4743#0" expanded="false" />
-            <element signature="e#4811#5094#0" expanded="false" />
-            <element signature="e#5399#5881#0" expanded="false" />
-            <element signature="e#5905#6396#0" expanded="false" />
-            <element signature="e#7395#8747#0" expanded="false" />
-            <element signature="e#8791#9737#0" expanded="false" />
-            <element signature="e#9801#11274#0" expanded="false" />
-            <element signature="e#11319#11902#0" expanded="false" />
-            <element signature="e#11336#11758#0" expanded="false" />
-            <element signature="e#11774#11900#0" expanded="false" />
-            <element signature="e#11946#13359#0" expanded="false" />
-            <element signature="e#11963#13115#0" expanded="false" />
-            <element signature="e#12086#12286#0" expanded="false" />
-            <element signature="e#13131#13357#0" expanded="false" />
-            <element signature="e#13403#14670#0" expanded="false" />
-            <element signature="e#13420#14668#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zaporozhie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-          <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-          <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+        <state relative-caret-position="545">
+          <caret line="479" column="9" lean-forward="true" selection-start-line="479" selection-start-column="9" selection-end-line="479" selection-end-column="9" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#aside#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#7323#7329#0" expanded="true" />
+            <element signature="e#23840#23846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_zaporozhie.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="601" column="1" lean-forward="true" selection-start-line="601" selection-start-column="1" selection-end-line="601" selection-end-column="1" />
+          <folding>
+            <element signature="e#392#4745#0" expanded="false" />
+            <element signature="e#483#856#0" expanded="false" />
+            <element signature="e#1282#2505#0" expanded="false" />
+            <element signature="e#2579#4743#0" expanded="false" />
+            <element signature="e#4811#5094#0" expanded="false" />
+            <element signature="e#5161#9841#0" expanded="false" />
+            <element signature="e#5399#5881#0" expanded="false" />
+            <element signature="e#5905#6397#0" expanded="false" />
+            <element signature="e#6416#7374#0" expanded="false" />
+            <element signature="e#7434#8876#0" expanded="false" />
+            <element signature="e#8920#9839#0" expanded="false" />
+            <element signature="e#9905#12405#0" expanded="false" />
+            <element signature="e#12467#13940#0" expanded="false" />
+            <element signature="e#13985#14568#0" expanded="false" />
+            <element signature="e#14002#14424#0" expanded="false" />
+            <element signature="e#14440#14566#0" expanded="false" />
+            <element signature="e#14612#16025#0" expanded="false" />
+            <element signature="e#14629#15781#0" expanded="false" />
+            <element signature="e#14752#14952#0" expanded="false" />
+            <element signature="e#15797#16023#0" expanded="false" />
+            <element signature="e#16069#17336#0" expanded="false" />
+            <element signature="e#16086#17334#0" expanded="false" />
           </folding>
         </state>
       </provider>
