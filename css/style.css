@@ -1031,6 +1031,47 @@
               height: 40px;
               display: inline-block;
               margin-right: 10px; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .animate {
+        position: relative; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body form {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        left: 10px;
+        top: 10px; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body label {
+        display: block; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body text {
+        font-size: 10px; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body path {
+        stroke: #fff; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body path:hover {
+        opacity: 0.9; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body rect:hover {
+        fill: blue; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .axis {
+        font: 10px sans-serif; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .legend tr {
+        border-bottom: 1px solid grey; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .legend tr:first-child {
+        border-top: 1px solid grey; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .axis path,
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .x.axis path {
+        display: none; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .legend {
+        margin-bottom: 76px;
+        display: inline-block;
+        border-collapse: collapse;
+        border-spacing: 0px; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .legend td {
+        padding: 4px 5px;
+        vertical-align: bottom; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .legendFreq, #information .main_block_information .main_content_block_info .panel-group .panel-body .legendPerc {
+        align: right;
+        width: 50px; }
 
 #zap_footer {
   background: url(../images/bg_footer.png);
