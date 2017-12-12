@@ -540,10 +540,6 @@ $light_grey: #C4D3DB;
                }
 
                // === panel body 2 === //
-               //body{
-               //   width:1060px;
-               //   margin:50px auto;
-               //}
                path {  stroke: #fff; }
                path:hover {  opacity:0.9; }
                rect:hover {  fill:blue; }
@@ -563,15 +559,25 @@ $light_grey: #C4D3DB;
                   margin-bottom:76px;
                   display:inline-block;
                   border-collapse: collapse;
-                  border-spacing: 0px;
+                  border-spacing: 0;
                }
                .legend td{
                   padding:4px 5px;
                   vertical-align:bottom;
                }
-               .legendFreq, .legendPerc{
-                  align:right;
-                  width:50px;
+               .legendFreq, .legendPerc {
+                  align: right;
+                  width: 50px;
+               }
+               // === panel body 3 === //
+               .myPieChart {
+                  width: 500px;
+                  height: 500px;
+                  margin: 0 auto;
+               }
+               // === panel body 4 === //
+               #canvas-holder {
+                  width: 100%;
                }
             }
          }

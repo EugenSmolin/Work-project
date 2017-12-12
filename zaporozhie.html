@@ -14,6 +14,9 @@
    <link href="css/font-awesome.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+   <!-- === canvas === -->
+   <script src="js/Chart.bundle.js"></script>
+   <script src="js/Chart.js"></script>
 
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -338,9 +341,6 @@
                         </form>
                      </div>
                      <svg width="800" height="400"></svg>
-
-                     <script src="https://d3js.org/d3.v4.min.js"></script>
-                     <script src="js/animate-graphics.js"></script>
                      <!-- ============================================ -->
                      </div>
                   </div>
@@ -378,7 +378,33 @@
                   </div>
                   <div id="collapse3" class="panel-collapse collapse">
                      <div class="panel-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+                        <div class="myPieChart">
+                           <canvas id="myPieChart" width="400" height="400"></canvas>
+                        </div>
+
+                        <script>
+                            var ctx = document.getElementById("myPieChart").getContext('2d');
+                            var myPieChart = new Chart(ctx, {
+                                type: 'pie',
+                                data: {
+                                    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+                                    datasets: [{
+                                        //label: '# of Votes',
+                                        data: [12, 19, 9, 5, 2, 5],
+                                        backgroundColor: [
+                                            'rgba(255, 99, 132, 0.8)',
+                                            'rgba(54, 162, 235, 0.8)',
+                                            'rgba(255, 206, 86, 0.8)',
+                                            'rgba(75, 192, 192, 0.8)',
+                                            'rgba(153, 102, 255, 0.8)',
+                                            'rgba(255, 159, 64, 0.8)'
+                                        ]
+                                    }]
+                                }
+                            });
+                        </script>
+
                      </div>
                   </div>
                </div>
@@ -394,7 +420,36 @@
                   </div>
                   <div id="collapse4" class="panel-collapse collapse">
                      <div class="panel-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+                        <div id="canvas-holder">
+                           <canvas id="chart-area"></canvas>
+                        </div>
+
+                        <script>
+
+                             var ctx = document.getElementById("chart-area").getContext('2d');
+                             var chartarea = new Chart(ctx, {
+                                 type: 'doughnut',
+                                 data: {
+                                     labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange", "Grey", "Brown"],
+                                     datasets: [{
+                                         //label: '# of Votes',
+                                         data: [5, 5, 20, 15, 8, 14, 12, 20],
+                                         backgroundColor: [
+                                             'rgba(255, 99, 132, 0.8)',
+                                             'rgba(54, 162, 235, 0.8)',
+                                             'rgba(255, 206, 86, 0.8)',
+                                             'rgba(75, 192, 192, 0.8)',
+                                             'rgba(153, 102, 255, 0.8)',
+                                             'rgba(255, 159, 64, 0.8)',
+                                             'rgba(145,145,145, 0.8)',
+                                             'rgba(50,14,0, 0.8)'
+                                         ]
+                                     }]
+                                 }
+                             });
+                        </script>
+
                      </div>
                   </div>
                </div>
@@ -501,7 +556,9 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="js/bootstrap.js"></script>
    <script src="js/script.js"></script>
-
+   <!-- === graphics animate === -->
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+   <script src="js/animate-graphics.js"></script>
 
 
 </body>

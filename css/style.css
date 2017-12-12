@@ -1065,13 +1065,19 @@
         margin-bottom: 76px;
         display: inline-block;
         border-collapse: collapse;
-        border-spacing: 0px; }
+        border-spacing: 0; }
       #information .main_block_information .main_content_block_info .panel-group .panel-body .legend td {
         padding: 4px 5px;
         vertical-align: bottom; }
       #information .main_block_information .main_content_block_info .panel-group .panel-body .legendFreq, #information .main_block_information .main_content_block_info .panel-group .panel-body .legendPerc {
         align: right;
         width: 50px; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body .myPieChart {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto; }
+      #information .main_block_information .main_content_block_info .panel-group .panel-body #canvas-holder {
+        width: 100%; }
 
 #zap_footer {
   background: url(../images/bg_footer.png);
